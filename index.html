@@ -1,0 +1,313 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mesón Benfeito · Food &amp; Rock en Vigo</title>
+<meta name="description" content="Mesón Benfeito, mesón-tapería de cocina gallega con alma rock en Vigo. Pulpo, marisco, arroces, carnes y postres caseros entre guitarras y discos de oro.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Work+Sans:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Mesón Benfeito","servesCuisine":"Gallega","priceRange":"€€","telephone":"+34617343863","address":{"@type":"PostalAddress","streetAddress":"Rúa Purificación-Saavedra, 6","addressLocality":"Vigo","addressRegion":"Pontevedra","postalCode":"36207","addressCountry":"ES"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Wednesday","Thursday"],"opens":"11:00","closes":"17:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"11:30","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"11:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"11:30","closes":"17:00"}]}</script>
+<style>:root{--bg:#0f0f13;--paper:#18181e;--glass:rgba(15,15,19,.93);--ink:#f1efe9;--muted:#aaa8b2;--blue:#e8b64a;--rule:rgba(232,182,74,.34);--wine:#d81f26;--on-wine:#fff;--wine-hover:#f0343b;--wine-text:#ff5a52;--star:#f3c14d;--star-off:rgba(241,239,233,.22);--shade:rgba(5,5,8,.86);--chalk:#f6f4ee;color-scheme:dark;--f-display:'Anton','Impact','Arial Narrow',sans-serif;--f-mark:'Permanent Marker','Comic Sans MS',cursive;--dot:rgba(255,255,255,.045);--f-body:'Work Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--gutter:max(16px,env(safe-area-inset-left,0px));--gutter-r:max(16px,env(safe-area-inset-right,0px))}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--dot:rgba(0,0,0,.06);--bg:#ecebe8;--paper:#fff;--glass:rgba(236,235,232,.93);--ink:#16161b;--muted:#5b5a62;--blue:#8a5d00;--rule:rgba(138,93,0,.38);--wine:#c8141c;--on-wine:#fff;--wine-hover:#9f0f16;--wine-text:#c8141c;--star:#d29a12;--star-off:rgba(22,22,27,.2);color-scheme:light}}
+:root[data-theme="light"]{--dot:rgba(0,0,0,.06);--bg:#ecebe8;--paper:#fff;--glass:rgba(236,235,232,.93);--ink:#16161b;--muted:#5b5a62;--blue:#8a5d00;--rule:rgba(138,93,0,.38);--wine:#c8141c;--on-wine:#fff;--wine-hover:#9f0f16;--wine-text:#c8141c;--star:#d29a12;--star-off:rgba(22,22,27,.2);color-scheme:light}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1rem;line-height:1.6;-webkit-text-size-adjust:100%;overflow-x:hidden;padding-bottom:78px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:40}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--f-display);margin:0;text-wrap:balance}
+p{margin:0}
+:focus-visible{outline:3px solid var(--wine-text);outline-offset:3px;border-radius:3px}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-left:var(--gutter);padding-right:var(--gutter-r)}
+section[id]{scroll-margin-top:76px}
+.ico{width:1.35em;height:1.35em;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- Cabecera ---------- */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1.5px solid var(--rule)}
+.top .wrap{display:flex;align-items:center;gap:18px;min-height:62px}
+.mark{display:inline-flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:700;font-size:1.25rem;letter-spacing:-.01em;text-decoration:none;margin-right:auto;white-space:nowrap}
+.mark .ico{width:26px;height:26px;color:var(--blue)}
+.mark i{font-style:italic;color:var(--wine-text)}
+.nav{display:none;gap:26px;font-weight:600;font-size:.95rem}
+.nav a{text-decoration:none;color:var(--muted);padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--ink);border-color:var(--wine-text)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:6px;font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;cursor:pointer;font-family:var(--f-body);transition:background .2s,border-color .2s,transform .2s}
+.btn-main{background:var(--wine);color:var(--on-wine)}
+.btn-main:hover{background:var(--wine-hover)}
+.btn-line{border-color:var(--blue);color:var(--ink);background:transparent}
+.btn-line:hover{background:var(--paper)}
+.btn:active{transform:scale(.98)}
+.top .btn{display:none;min-height:40px;padding:0 18px;font-size:.92rem}
+
+/* ---------- Hero ---------- */
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:44px;padding-block:34px 56px}
+.hero .copy{min-width:0}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--blue)}
+h1{font-size:clamp(3.1rem,15vw,6.2rem);line-height:.95;letter-spacing:.01em;text-transform:uppercase;margin-top:16px;transform:rotate(-1.5deg);transform-origin:left}
+h1 em{font-style:normal;color:var(--wine-text);display:block}
+.lead{margin-top:20px;font-size:1.12rem;color:var(--muted);max-width:33em}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.today{margin-top:20px;display:flex;align-items:center;gap:10px;color:var(--muted);font-size:.95rem}
+.visual{position:relative;padding-bottom:46px}
+.frame{background:var(--paper);padding:9px;border:2px solid var(--blue);outline:1px solid var(--rule);outline-offset:5px}
+.frame img{width:100%;height:100%;object-fit:cover}
+.frame.main img{aspect-ratio:4/4.5}
+.frame.small{position:absolute;left:-2px;bottom:0;width:40%;padding:6px;outline-offset:3px}
+.frame.small img{aspect-ratio:1/1}
+.frame.tagphoto{position:absolute;right:10px;top:-18px;width:54%;padding:6px;outline-offset:3px}
+.frame.tagphoto img{aspect-ratio:650/310;height:auto}
+.badge b{display:block;font-family:var(--f-display);font-size:2.3rem;font-weight:800}
+.badge small{display:block;font-size:.8rem;font-weight:600;color:var(--muted);margin-top:4px}
+.glyph{display:inline-block;font-size:1.05rem;letter-spacing:.08em;line-height:1;background:linear-gradient(90deg,var(--star) 94%,var(--star-off) 94%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  .hero .copy>*{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+  .hero .copy>:nth-child(2){animation-delay:.07s}.hero .copy>:nth-child(3){animation-delay:.14s}
+  .hero .copy>:nth-child(4){animation-delay:.21s}.hero .copy>:nth-child(5){animation-delay:.28s}
+  .visual{animation:up .9s .15s cubic-bezier(.2,.7,.2,1) both}
+}
+
+/* ---------- Servicios ---------- */
+.perks{border-block:2px solid var(--blue);background:var(--paper);box-shadow:inset 0 5px 0 var(--paper),inset 0 6.5px 0 var(--rule),inset 0 -5px 0 var(--paper),inset 0 -6.5px 0 var(--rule)}
+.perks ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr}
+.perks li{display:flex;align-items:center;gap:12px;padding:20px 4px}
+.perks li:nth-child(n+3){border-top:1px solid var(--rule)}
+.perks .ico{width:30px;height:30px;color:var(--blue)}
+.perks b{display:block;font-weight:700;line-height:1.2}
+.perks small{display:block;color:var(--muted);font-size:.86rem;line-height:1.3}
+
+/* ---------- Secciones ---------- */
+.sec{padding-block:64px}
+.head{margin-bottom:30px;max-width:40em}
+.head h2{font-size:clamp(2rem,6.6vw,3.2rem);font-weight:800;line-height:1.06;letter-spacing:-.02em;margin-top:12px}
+.head p{margin-top:14px;color:var(--muted);font-size:1.05rem}
+.demo{display:inline-flex;align-items:center;gap:8px;margin-top:16px;border:1.5px dashed var(--wine-text);color:var(--wine-text);padding:6px 14px;border-radius:999px;font-weight:700;font-size:.85rem}
+
+/* Platos */
+.cards{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1*var(--gutter)) calc(-1*var(--gutter-r));padding:4px var(--gutter-r) 14px var(--gutter);scroll-padding-left:var(--gutter);scrollbar-width:thin}
+.card{position:relative;flex:0 0 74%;max-width:300px;aspect-ratio:4/5;overflow:hidden;scroll-snap-align:start;background:var(--paper);margin:0;border:2px solid var(--blue);padding:6px}
+.card .im{position:relative;width:100%;height:100%;overflow:hidden}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card figcaption{position:absolute;inset:auto 0 0;padding:46px 14px 12px;background:linear-gradient(transparent,var(--shade));color:var(--chalk);display:flex;flex-direction:column;gap:2px}
+.card h3{font-size:1.25rem;font-weight:700;line-height:1.15}
+.card span{font-size:.88rem;color:rgba(246,244,238,.8)}
+.card .price{position:absolute;top:10px;right:10px;background:var(--paper);color:var(--wine-text);border:1.5px dashed var(--wine-text);font-weight:800;font-size:.9rem;padding:3px 11px;border-radius:999px}
+.hint{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--muted);margin-top:6px}
+
+/* Mantel con la carta */
+.mat{margin-top:46px;background:var(--paper);border:2px solid var(--blue);box-shadow:inset 0 0 0 7px var(--paper),inset 0 0 0 8.5px var(--blue);padding:36px 26px 30px}
+.mat-title{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.mat-title .ico{width:34px;height:34px;color:var(--blue)}
+.mat-title h3{font-size:2.3rem;font-weight:800;letter-spacing:-.02em}
+.mat-title p{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+.groups{display:grid;gap:28px;margin-top:26px}
+.groups h4{font-size:1.45rem;font-weight:700;font-style:italic;color:var(--wine-text);padding-bottom:8px;border-bottom:1.5px solid var(--rule)}
+.groups ul{list-style:none;margin:6px 0 0;padding:0}
+.groups li{display:flex;align-items:baseline;gap:8px;padding:8px 0;font-size:1.05rem;font-weight:500}
+.groups small{color:var(--muted);font-weight:500;font-size:.78rem;margin-left:4px;text-transform:uppercase;letter-spacing:.07em}
+.dots{flex:1;border-bottom:2px dotted var(--rule);transform:translateY(-4px);min-width:16px}
+.p{font-variant-numeric:tabular-nums;color:var(--wine-text);font-weight:800;white-space:nowrap}
+.note{margin-top:24px;padding-top:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem;text-align:center}
+
+/* El local */
+.local{background:var(--paper);border-block:1.5px solid var(--rule)}
+.local .grid{display:grid;grid-template-columns:minmax(0,1fr);gap:32px}
+.facts{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:14px}
+.facts li{display:flex;gap:12px;align-items:flex-start;color:var(--muted)}
+.facts li .ico{color:var(--blue);margin-top:2px}
+.facts strong{color:var(--ink);font-weight:700}
+.gal{columns:2;column-gap:10px}
+.gal button{display:block;width:100%;margin:0 0 10px;padding:6px;border:2px solid var(--blue);background:var(--bg);cursor:zoom-in;position:relative;break-inside:avoid;color:inherit;font:inherit}
+.gal .im{position:relative;overflow:hidden}
+.gal img{width:100%;height:auto;transition:transform .5s}
+.gal .cap{position:absolute;left:8px;bottom:8px;background:var(--shade);color:var(--chalk);font-size:.78rem;font-weight:600;padding:3px 9px;border-radius:999px}
+dialog{border:0;padding:0;background:var(--paper);color:var(--ink);max-width:min(92vw,820px);max-height:90vh;overflow:hidden;border:2px solid var(--blue)}
+dialog::backdrop{background:rgba(5,8,16,.82)}
+dialog img{max-height:78vh;width:auto;max-width:100%;margin:auto}
+dialog p{padding:10px 16px 14px;font-size:.95rem;text-align:center}
+dialog .x{position:absolute;top:8px;right:8px;width:40px;height:40px;border-radius:50%;border:0;background:var(--shade);color:var(--chalk);font-size:1.5rem;line-height:1;cursor:pointer}
+
+/* Opiniones */
+.sum{display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;margin-bottom:26px}
+.score{font-family:var(--f-display);font-size:clamp(3.4rem,12vw,5rem);font-weight:800;line-height:1}
+.sum .glyph{font-size:1.5rem}
+.sum small{display:block;color:var(--muted);font-weight:600;font-size:.95rem}
+.rv-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+.rv{background:var(--paper);border:2px solid var(--blue);box-shadow:inset 0 0 0 5px var(--paper),inset 0 0 0 6.5px var(--rule);padding:30px 26px;display:flex;flex-direction:column;gap:14px;margin:0}
+.stars{display:flex;gap:3px;color:var(--star)}
+.stars svg{width:18px;height:18px;fill:currentColor}
+.rv blockquote{margin:0;font-family:var(--f-display);font-size:1.2rem;line-height:1.4;font-weight:500}
+.rv.big blockquote{font-size:1.4rem}
+.rv .who{margin-top:auto;color:var(--muted);font-size:.92rem}
+.rv .who b{color:var(--ink);font-weight:700}
+
+/* Horario y contacto */
+.info{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+.box{background:var(--paper);border:2px solid var(--blue);box-shadow:inset 0 0 0 5px var(--paper),inset 0 0 0 6.5px var(--rule);padding:30px 26px}
+.box h3{font-size:1.5rem;font-weight:700;display:flex;align-items:center;gap:10px}
+.box h3 .ico{color:var(--blue)}
+.sched{list-style:none;margin:16px 0 0;padding:0}
+.sched li{display:flex;justify-content:space-between;gap:16px;padding:11px 10px;border-bottom:1px solid var(--rule);font-variant-numeric:tabular-nums}
+.sched li:last-child{border-bottom:0}
+.sched li.off span:last-child{color:var(--muted)}
+.sched li.now{background:color-mix(in srgb,var(--wine-text) 14%,transparent);font-weight:700}
+.fach{margin-top:16px;border:1.5px solid var(--rule)}
+.fach img{width:100%;height:auto}
+.addr{margin-top:16px;font-size:1.2rem;font-weight:600;line-height:1.35;font-style:normal}
+.addr small{display:block;font-weight:400;color:var(--muted);font-size:.95rem;margin-top:4px}
+.tel{margin-top:14px;font-size:1.25rem;font-weight:700;font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:10px}
+.tel .ico{color:var(--blue)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.price-note{margin-top:20px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font-size:.95rem}
+.price-note strong{color:var(--ink)}
+
+/* Pie y barra móvil */
+footer{border-top:2px solid var(--blue);padding-block:34px 40px;color:var(--muted);font-size:.92rem}
+footer .wrap{display:grid;gap:14px}
+footer .mark{font-size:1.5rem;color:var(--ink)}
+.bar{position:fixed;inset:auto 0 0;z-index:30;display:flex;gap:10px;padding:10px var(--gutter-r) calc(10px + env(safe-area-inset-bottom,0px)) var(--gutter);background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1.5px solid var(--rule)}
+.bar .btn{flex:1;padding:0 12px}
+
+/* ---------- Escritorio ---------- */
+@media (min-width:760px){
+  body{padding-bottom:0}
+  .nav{display:flex}
+  .top .btn{display:inline-flex}
+  .bar{display:none}
+  .perks ul{grid-template-columns:repeat(4,1fr)}
+  .perks li{padding:24px 18px}
+  .perks li:nth-child(n+3){border-top:0}
+  .perks li+li{border-left:1px solid var(--rule)}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;overflow:visible;margin:0;padding:0}
+  .card{flex:none;max-width:none}
+  .card:hover img{transform:scale(1.05)}
+  .hint{display:none}
+  .mat{padding:46px 48px 38px}
+  .groups{grid-template-columns:1fr 1fr;gap:32px 60px}
+  .gal{columns:2}
+  .gal button:hover img{transform:scale(1.04)}
+  .info{grid-template-columns:1fr 1fr;gap:20px}
+  .box{padding:34px 36px}
+  .rv-grid{grid-template-columns:1.25fr 1fr;gap:16px}
+  .rv.big{grid-row:1/3;justify-content:center;padding:44px 40px}
+}
+@media (min-width:980px){
+  .hero .wrap{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:center;gap:64px;padding-block:72px 90px}
+  .local .grid{grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+  .sec{padding-block:92px}
+  footer .wrap{grid-template-columns:1fr auto;align-items:end}
+}
+
+.rv blockquote,.rv.big blockquote{font-family:var(--f-body);font-size:1.08rem;line-height:1.5;font-weight:500}.rv.big blockquote{font-size:1.25rem}
+.mark{font-size:1.5rem;text-transform:uppercase;letter-spacing:.03em}.mark i{font-style:normal}
+.groups h4{font-style:normal;text-transform:uppercase;letter-spacing:.03em;font-size:1.6rem}
+.card h3{font-size:1.5rem}.mat-title h3{text-transform:uppercase}
+.ln{height:0;border:0;border-top:2px solid var(--rule);position:relative;margin:0}
+.frame,.card,.rv,.box,.mat{border-radius:0}
+.sec.alt{background:var(--paper);border-block:1.5px solid var(--rule)}
+
+h1,h2,h3,h4,.mark,.score,.price,.card h3{font-weight:400!important;font-synthesis:none}
+.head h2,.mat-title h3{line-height:1.12;text-transform:none;letter-spacing:0}
+.mark{font-size:1.2rem;letter-spacing:0;text-transform:none}.mark i{font-style:normal}
+.groups h4{font-size:1.3rem;text-transform:none;letter-spacing:0}.card h3{font-size:1.15rem}.mat-title h3{font-size:1.9rem}
+.frame.tagphoto img{object-position:center 22%}
+.vinyl{width:92px;height:92px;position:absolute;right:-6px;bottom:6px;color:var(--blue);opacity:.9}
+.tbc{color:var(--muted);font-style:italic}
+
+body{background-image:radial-gradient(var(--dot) 1.2px,transparent 1.6px);background-size:12px 12px}
+h1 em{font-family:var(--f-mark);font-size:.5em;text-transform:none;color:var(--blue);display:inline-block;transform:rotate(-3deg);margin-top:.35em;letter-spacing:0}
+.eyebrow{font-family:var(--f-mark);font-size:1.05rem;text-transform:none;letter-spacing:0;color:var(--wine-text);font-weight:400}.eyebrow::before{background:var(--wine-text);transform:rotate(-8deg);width:22px}
+.demo{font-family:var(--f-mark);font-weight:400;transform:rotate(-1.5deg)}
+.btn{transform:skewX(-6deg);border-radius:2px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}.btn:active{transform:skewX(-6deg) scale(.97)}
+.btn-line{border-color:var(--blue)}
+.head h2,.mat-title h3,.local h2{text-transform:uppercase;letter-spacing:.01em;line-height:1.02;font-size:clamp(2.3rem,9vw,3.8rem)}
+.mark{font-size:1.5rem;text-transform:uppercase;letter-spacing:.05em}
+.card h3{font-size:1.45rem;text-transform:uppercase;letter-spacing:.02em}.card .price{background:var(--wine);color:#fff;border:0;transform:rotate(3deg);font-family:var(--f-display);font-weight:400;letter-spacing:.03em;font-size:1rem;border-radius:2px}
+.frame.main{transform:rotate(1.2deg)}.frame.small{transform:rotate(-3deg)}.frame.tagphoto{transform:rotate(2deg)}
+.chk{height:14px;background:repeating-conic-gradient(#0a0a0d 0 25%,#f4f1ea 0 50%) 0 0/14px 14px}
+.perks{box-shadow:none;border-block:0}
+.top{border-bottom:2px solid var(--wine)}
+/* guitarra */
+.guitar{--g:#e8b64a;--k:#0a0a0d;max-width:620px;margin:44px auto 0;color:#f4f1ea;filter:drop-shadow(0 18px 28px rgba(0,0,0,.4))}
+.gh{position:relative;width:46%;height:104px;margin:0 auto;background:var(--g);clip-path:polygon(6% 0,94% 0,100% 100%,0 100%);display:grid;place-items:center}
+.gh::before{content:"";position:absolute;inset:3px;background:var(--k);clip-path:polygon(6% 0,94% 0,100% 100%,0 100%)}
+.gh span{position:relative;font-family:var(--f-mark);color:var(--g);font-size:1.6rem;transform:rotate(-4deg);line-height:1}
+.fret{background-color:#1a1008;background-image:repeating-linear-gradient(90deg,transparent 0 6px,rgba(255,255,255,.5) 6px 7px),repeating-linear-gradient(0deg,transparent 0 38px,var(--g) 38px 40px);border-inline:3px solid var(--g)}
+.gn{width:14%;height:60px;margin:0 auto}
+.gx h4{font:400 1.7rem/1 var(--f-display);text-transform:uppercase;letter-spacing:.04em;color:var(--g);text-align:center;border:0;padding:0;margin:0 0 10px;font-style:normal}
+.tapas h4{grid-column:1/-1}
+.tapas .fret{grid-row:2}
+.col{display:grid;gap:12px;align-content:start}
+.col.l{text-align:right;grid-column:1;grid-row:2}.col.r{text-align:left;grid-column:3;grid-row:2}
+.it b{display:block;font:400 .98rem/1.1 var(--f-display);text-transform:uppercase;letter-spacing:.03em;color:var(--g)}
+.it small{display:block;font-size:.75rem;line-height:1.3;color:#c9c5bb;margin:2px 0}
+.it i{font:400 1rem var(--f-display);font-style:normal;color:#ff5a52}
+.gx ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.gx li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px dotted rgba(232,182,74,.4);padding-bottom:9px}
+.gx li .it small{max-width:30ch}.gx li>i{font:400 1.1rem var(--f-display);font-style:normal;color:#ff5a52;white-space:nowrap}
+.zone{margin-top:34px}
+.bridge{height:14px;width:42%;margin:30px auto 0;border-radius:3px;background:linear-gradient(var(--g),#8f6a1c)}
+.gnote{margin-top:22px;text-align:center;font-size:.9rem;color:var(--muted)}
+.sched li{border-bottom:2px dashed var(--rule);font-family:var(--f-display);letter-spacing:.04em;font-size:1.1rem;text-transform:uppercase}
+.sched li.now{background:var(--wine);color:#fff}
+@media(min-width:760px){.it b{font-size:1.15rem}.it small{font-size:.85rem}.gx h4{font-size:2rem}}
+
+.gx{--g:#e8b64a;--k:#0a0a0d;max-width:640px;margin:44px auto 0;color:#f4f1ea;filter:drop-shadow(0 18px 28px rgba(0,0,0,.4))}
+.pc{display:block;width:100%}.pc .f{fill:var(--k)}.pc .s{fill:none;stroke:var(--g);stroke-width:3;vector-effect:non-scaling-stroke}
+.ub{background:var(--k);border-inline:3px solid var(--g);margin-inline:calc(2% - 1.5px);padding:0 3% 10px}
+.lb{background:var(--k);border-inline:3px solid var(--g);margin-inline:-1.5px;padding:0 9% 4px}
+.tapas{display:grid;grid-template-columns:1fr 14% 1fr;gap:0 8px}
+.gx .zone:first-child{margin-top:0}
+.gx .bridge{margin:26px auto 0}
+@media(min-width:760px){.ub{padding:0 5% 14px}.lb{padding:0 12% 4px}.gx{max-width:700px}.gx .tapas .it small{font-size:.85rem}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="disc" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="1.4"/></symbol></svg>
+<header class="top"><div class="wrap"><a class="mark" href="#top" aria-label="Mesón Benfeito, inicio"><svg class="ico" aria-hidden="true"><use href="#disc"/></svg><span>Benfeito</span></a>
+<nav class="nav" aria-label="Principal"><a href="#carta">Carta</a><a href="#local">El local</a><a href="#opiniones">Opiniones</a><a href="#horario">Dónde</a></nav>
+<a class="btn btn-main" href="tel:+34617343863">Llamar</a></div></header><div class="chk" aria-hidden="true"></div>
+<main id="top">
+<section class="hero"><div class="wrap"><div class="copy">
+<p class="eyebrow">Mesón · Tapería · Teis, Vigo</p>
+<h1>Cocina gallega con alma rock <em>Food &amp; Rock, a todo volumen</em></h1>
+<p class="lead">Pulpo, marisco, arroces y carnes a la plancha en un mesón de piedra decorado con guitarras, discos de oro y fotos de conciertos.</p>
+<div class="cta"><a class="btn btn-main" href="tel:+34617343863"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Llamar</a><a class="btn btn-line" href="#carta">Ver la carta</a></div>
+<p class="today"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span id="today-text">Mejor con reserva, sobre todo para comer en grupo</span></p></div>
+<div class="visual"><div class="frame main"><img src="img/pulpo.jpg" alt="Pulpo con patata y pimentón" width="768" height="1024" fetchpriority="high"></div>
+<div class="frame small"><img src="img/arroz.jpg" alt="Arroz caldoso con zamburiñas" width="768" height="1024"></div>
+<div class="frame tagphoto"><img src="img/fachada.jpg" alt="Fachada del Mesón Benfeito con toldo negro y guitarra en la pared" width="1079" height="800"></div></div></div></section>
+<section class="perks" aria-label="Servicios"><div class="wrap"><ul>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 18a3 3 0 11-6 0 3 3 0 016 0zM20 16a3 3 0 11-6 0 3 3 0 016 0z"/></svg><div><b>Temática rock</b><small>Guitarras y discos de oro</small></div></li>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v6M9 3v6M17 21V3c-2.2 1.4-3 4-3 7v3h3"/></svg><div><b>Platos fuera de carta</b><small>Pregunta por ellos</small></div></li>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 0118 0H3z"/><path d="M12 12v7a2 2 0 004 0"/></svg><div><b>Mesas en la calle</b><small>Junto a la puerta</small></div></li>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15 9.2A4 4 0 1015 14.8M8 11h6M8 13h6"/></svg><div><b>20–30 € por persona</b><small>Según reseñas</small></div></li></ul></div></section>
+<section class="sec" id="carta"><div class="wrap"><div class="head"><p class="eyebrow">El setlist</p><h2>La carta tiene forma de guitarra</h2><p>Cada plato lleva nombre de banda. Si dudas, el camarero sabe qué tocar.</p></div>
+<div class="cards" tabindex="0" aria-label="Platos destacados, desliza para ver más"><figure class="card"><div class="im"><img src="img/pulpo.jpg" alt="Pulpo con patata y pimentón" loading="lazy" decoding="async"></div><span class="price">16 €</span><figcaption><h3>Deep Purplo</h3><span>Pulpo á feira</span></figcaption></figure><figure class="card"><div class="im"><img src="img/arroz.jpg" alt="Arroz caldoso con zamburiñas" loading="lazy" decoding="async"></div><span class="price">36 €</span><figcaption><h3>Arroz Stewart</h3><span>Zamburiñas, almejas, navajas · 2 pers.</span></figcaption></figure><figure class="card"><div class="im"><img src="img/vieiras.jpg" alt="Zamburiñas a la plancha" loading="lazy" decoding="async"></div><span class="price">18 €</span><figcaption><h3>Zakk-Buriñas Wilde</h3><span>Zamburiñas y volandeiras</span></figcaption></figure><figure class="card"><div class="im"><img src="img/mejillones.jpg" alt="Mejillones con limón" loading="lazy" decoding="async"></div><span class="price">7 €</span><figcaption><h3>Mej-Jon Bon Jovi</h3><span>Mejillones al vapor</span></figcaption></figure><figure class="card"><div class="im"><img src="img/marisco.jpg" alt="Parrillada de marisco" loading="lazy" decoding="async"></div><span class="price">50 €</span><figcaption><h3>Foo(d) Fighters</h3><span>Parrillada · 2 pers. · por encargo</span></figcaption></figure><figure class="card"><div class="im"><img src="img/croquetas.jpg" alt="Croquetas sobre patata paja" loading="lazy" decoding="async"></div><span class="price">11 €</span><figcaption><h3>Joe Crocker</h3><span>Variado de croquetas</span></figcaption></figure><figure class="card"><div class="im"><img src="img/calamar.jpg" alt="Chipirones a la plancha con patatas y pimientos" loading="lazy" decoding="async"></div><span class="price">12 €</span><figcaption><h3>Chip-Iron Maiden</h3><span>Chipirones a la plancha</span></figcaption></figure><figure class="card"><div class="im"><img src="img/tarta.jpg" alt="Tarta de queso con frutos rojos" loading="lazy" decoding="async"></div><span class="price">Postre</span><figcaption><h3>Tarta de queso</h3><span>Con frutos rojos</span></figcaption></figure></div>
+<p class="hint"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Desliza para ver más platos</p>
+<div class="gx guitar" role="region" aria-label="Carta con forma de guitarra"><div class="gh"><span>ben feito</span></div><div class="gn fret"></div><svg class="pc" viewBox="0 0 100 64" preserveAspectRatio="none" style="height:64px" aria-hidden="true"><path class="f" d="M43 0L57 0C57 5 60 6 68 6C90 6 98 22 98 64L2 64C2 22 10 6 32 6C40 6 43 5 43 0Z"/><path class="s" d="M43 0C43 5 40 6 32 6C10 6 2 22 2 64M57 0C57 5 60 6 68 6C90 6 98 22 98 64"/></svg><div class="ub"><div class="tapas"><h4>Tapas</h4><div class="col l"><div class="it"><b>Deep Purplo</b><small>Pulpo á feira</small><i>16 €</i></div><div class="it"><b>Rejos Chili Peppers</b><small>Pulpo a la parrilla</small><i>18 €</i></div><div class="it"><b>Chip-Iron Maiden</b><small>Chipirones a la plancha o encebollados</small><i>12 €</i></div><div class="it"><b>Ted Nuggents</b><small>Delicias de pollo al curry</small><i>11 €</i></div></div><div class="fret"></div><div class="col r"><div class="it"><b>Joe Crocker</b><small>Variado de croquetas</small><i>11 €</i></div><div class="it"><b>Eye of the Tigers</b><small>Mejillones tigre</small><i>12 €</i></div><div class="it"><b>Ratt-Bas</b><small>Rabas de calamar con alioli</small><i>10 €</i></div><div class="it"><b>Los Fabes-Losos Cadillacs</b><small>Fabes con almejas y pulpo</small><i>17 €</i></div></div></div></div><svg class="pc" viewBox="0 0 100 100" preserveAspectRatio="none" style="height:100px" aria-hidden="true"><path class="f" d="M2 0L98 0C98 32 88 40 88 50C88 62 100 68 100 100L0 100C0 68 12 62 12 50C12 40 2 32 2 0Z"/><path class="s" d="M2 0C2 32 12 40 12 50C12 62 0 68 0 100M98 0C98 32 88 40 88 50C88 62 100 68 100 100"/></svg><div class="lb"><div class="zone"><h4>Mariscos y arroces</h4><ul><li><div class="it"><b>The Clam)sh</b><small>Almejas a la marinera · temporada</small></div><i>S/M</i></li><li><div class="it"><b>Frank Gamba-le</b><small>Gambas de Huelva</small></div><i>16 €</i></li><li><div class="it"><b>Zakk-Buriñas Wilde</b><small>Zamburiñas y volandeiras</small></div><i>18 €</i></li><li><div class="it"><b>Mej-Jon Bon Jovi</b><small>Mejillones al vapor</small></div><i>7 €</i></li><li><div class="it"><b>Foo(d) Fighters</b><small>Parrillada de marisco · 2 pers. · solo por encargo</small></div><i>50 €</i></li><li><div class="it"><b>Marea</b><small>Arroz de marisco · 2 pers.</small></div><i>34 €</i></li><li><div class="it"><b>Arroz Stewart</b><small>Zamburiñas, almejas, navajas y cocochas · 2 pers.</small></div><i>36 €</i></li><li><div class="it"><b>Arroz Back in Black</b><small>Arroz negro con pulpo, chipirones y choco · 2 pers.</small></div><i>34 €</i></li><li><div class="it"><b>Andrés Calamar (es)</b><small>Arroz de calamares y langostinos · 2 pers.</small></div><i>36 €</i></li><li><div class="it"><b>Chickenfood (D)</b><small>Fideuá de calamares, langostinos y gamba roja · 2 pers.</small></div><i>40 €</i></li></ul></div><div class="zone"><h4>De la huerta</h4><ul><li><div class="it"><b>Pikillo y los Trogloditas</b><small>Cogollos, piquillo, salmón y anchoas</small></div><i>11 €</i></li><li><div class="it"><b>Fito Cabrales</b><small>Brotes con queso azul, nueces, cherries y manzana</small></div><i>8 €</i></li><li><div class="it"><b>Rulo y la Contraband</b><small>Rulo de cabra, frutos secos y jamón</small></div><i>8 €</i></li></ul></div><div class="bridge"></div></div><svg class="pc" viewBox="0 0 100 90" preserveAspectRatio="none" style="height:90px" aria-hidden="true"><path class="f" d="M0 0L100 0C100 60 76 90 50 90C24 90 0 60 0 0Z"/><path class="s" d="M0 0C0 60 24 90 50 90C76 90 100 60 100 0"/></svg></div>
+<p class="gnote">Hay más: carnes, postres y platos fuera de carta. Precios según la carta publicada; pueden variar.</p></div></section>
+<section class="sec local" id="local"><div class="wrap grid"><div><p class="eyebrow">Backstage</p>
+<h2 style="margin-top:12px">Piedra, madera y un buen escenario</h2>
+<ul class="facts">
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 18a3 3 0 11-6 0 3 3 0 016 0zM20 16a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span><strong>Decoración rock.</strong> Guitarras, discos de oro y fotos de conciertos por todas las paredes.</span></li>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM17 10h1.5a2.5 2.5 0 0 1 0 5H17"/></svg><span><strong>Trato cercano.</strong> Los clientes destacan al camarero, atento y de buen consejo.</span></li>
+<li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8l-1 7a3 3 0 01-6 0zM12 13v8M8 21h8"/></svg><span><strong>Para grupos.</strong> Mesas largas y menús para compartir; mejor reservar.</span></li></ul></div>
+<div class="gal"><button type="button" data-src="img/interior.jpg" data-cap="El comedor rock"><span class="im"><img src="img/interior.jpg" alt="Comedor con guitarra, discos de oro y fotos de conciertos en las paredes" loading="lazy" decoding="async"><span class="cap">El comedor rock</span></span></button><button type="button" data-src="img/barra.jpg" data-cap="La barra"><span class="im"><img src="img/barra.jpg" alt="Barra con tazas colgadas y una figura en la pared" loading="lazy" decoding="async"><span class="cap">La barra</span></span></button><button type="button" data-src="img/comedor.jpg" data-cap="Mesas con piedra"><span class="im"><img src="img/comedor.jpg" alt="Mesa larga puesta junto a la pared de piedra" loading="lazy" decoding="async"><span class="cap">Mesas con piedra</span></span></button><button type="button" data-src="img/calamar.jpg" data-cap="Para compartir"><span class="im"><img src="img/calamar.jpg" alt="Fuente de chipirones a la plancha con patatas y pimientos" loading="lazy" decoding="async"><span class="cap">Para compartir</span></span></button></div></div></section>
+<section class="sec" id="opiniones"><div class="wrap"><div class="head"><p class="eyebrow">El público</p><h2>Lo cuentan quienes han venido</h2></div>
+<div class="sum"><div><span class="glyph" role="img" aria-label="5 de 5 estrellas">★★★★★</span><small>Reseñas de clientes en Google</small></div></div>
+<div class="rv-grid"><figure class="rv big"><div class="stars" role="img" aria-label="5 estrellas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg></div><blockquote>“El camarero encantador, la comida riquísima y el local decorado con temática rock. Le doy un 10. Si volvemos a Vigo, repetiremos seguro.”</blockquote><figcaption class="who"><b>Sara Requena</b> · hace 4 meses</figcaption></figure><figure class="rv"><div class="stars" role="img" aria-label="5 estrellas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg></div><blockquote>“Fuimos a almorzar cinco personas. El camarero Adri fue muy atento y nos recomendó algunos platos. La comida, muy sabrosa; los mejillones nos encantaron.”</blockquote><figcaption class="who"><b>Jose Carlos Campo</b> · hace 4 meses</figcaption></figure><figure class="rv"><div class="stars" role="img" aria-label="5 estrellas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg></div><blockquote>“Comimos un menú estupendo de nécora para dos y fideuá de marisco. Buena ración de croquetas de pulpo y queso de tetilla. Muy recomendable.”</blockquote><figcaption class="who"><b>La Boca Agua by Cocir</b> · hace 3 meses</figcaption></figure></div>
+<div class="btns" style="margin-top:26px"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Mesón+Benfeito+Vigo" target="_blank" rel="noopener">Leer más reseñas en Google</a></div></div></section>
+<section class="sec" id="horario" style="padding-top:0"><div class="wrap"><div class="head"><p class="eyebrow">La gira</p><h2>Horario y cómo llegar</h2></div>
+<div class="info"><div class="box"><h3><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Horario</h3><ul class="sched" id="sched"><li data-d="1"><span>Lunes</span><span>11:00–17:30</span></li><li data-d="2" class="off"><span>Martes</span><span>Cerrado</span></li><li data-d="3"><span>Miércoles</span><span>11:00–17:30</span></li><li data-d="4"><span>Jueves</span><span>11:00–17:30</span></li><li data-d="5"><span>Viernes</span><span>11:30–23:30</span></li><li data-d="6"><span>Sábado</span><span>11:00–23:30</span></li><li data-d="0"><span>Domingo</span><span>11:30–17:00</span></li></ul></div>
+<div class="box"><h3><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0113 0C18.5 15.4 12 21 12 21z"/><circle cx="12" cy="10" r="2.4"/></svg>Dónde estamos</h3><div class="fach"><img src="img/fachada.jpg" alt="Fachada del Mesón Benfeito" width="1079" height="800" loading="lazy" decoding="async"></div>
+<address class="addr" id="addr">Rúa Purificación-Saavedra, 6<small>Teis, 36207 Vigo, Pontevedra</small></address>
+<p class="tel"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span id="phone">617 34 38 63</span></p>
+<div class="btns"><a class="btn btn-main" href="tel:+34617343863">Llamar</a><a class="btn btn-line" href="https://wa.me/34617343863" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=Mes%C3%B3n+Benfeito+R%C3%BAa+Purificaci%C3%B3n+Saavedra+6+Teis+Vigo" target="_blank" rel="noopener">Cómo llegar</a>
+<button class="btn btn-line" type="button" data-copy="Rúa Purificación-Saavedra, 6, Teis, 36207 Vigo, Pontevedra" data-sel="addr" data-label="Copiar dirección"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 012-2h9"/></svg><span>Copiar dirección</span></button></div>
+<p class="price-note"><strong>De 20 a 30 € por persona.</strong> Gasto medio según los clientes en Google.</p></div></div></div></section></main>
+<div class="chk" aria-hidden="true"></div><footer><div class="wrap"><div><a class="mark" href="#top"><svg class="ico" aria-hidden="true"><use href="#disc"/></svg><span>Mesón Benfeito</span></a><p style="margin-top:8px">Rúa Purificación-Saavedra, 6 · Teis, 36207 Vigo · 617 34 38 63</p></div><p>© 2026 Mesón Benfeito</p></div></footer>
+<div class="bar"><a class="btn btn-main" href="tel:+34617343863">Llamar</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=Mes%C3%B3n+Benfeito+R%C3%BAa+Purificaci%C3%B3n+Saavedra+6+Teis+Vigo" target="_blank" rel="noopener">Cómo llegar</a></div>
+<dialog id="lb" aria-label="Foto ampliada"><button class="x" type="button" aria-label="Cerrar">×</button><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><p id="lb-cap"></p></dialog>
+<script>(function(){var H={0:'11:30–17:00',1:'11:00–17:30',2:null,3:'11:00–17:30',4:'11:00–17:30',5:'11:30–23:30',6:'11:00–23:30'},M={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
+try{var w='';new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Madrid',weekday:'short'}).formatToParts(new Date()).forEach(function(x){if(x.type==='weekday')w=x.value});var d=M[w],t=document.getElementById('today-text');
+if(t)t.textContent=d===2?'Hoy cerrado. Abrimos mañana de 11:00 a 17:30.':'Hoy: '+H[d];var r=document.querySelector('#sched li[data-d="'+d+'"]');if(r)r.classList.add('now')}catch(e){}
+document.querySelectorAll('[data-copy]').forEach(function(b){var l=b.querySelector('span'),o=b.getAttribute('data-label');b.addEventListener('click',function(){function done(m){l.textContent=m;setTimeout(function(){l.textContent=o},2200)}function fb(){var e=document.getElementById(b.getAttribute('data-sel'));if(e){var g=document.createRange();g.selectNodeContents(e);var s=getSelection();s.removeAllRanges();s.addRange(g)}done('Seleccionado')}try{navigator.clipboard.writeText(b.getAttribute('data-copy')).then(function(){done('Copiado')},fb)}catch(e){fb()}})});
+var lb=document.getElementById('lb');if(lb&&lb.showModal){var im=lb.querySelector('img'),cp=document.getElementById('lb-cap');document.querySelectorAll('.gal button').forEach(function(b){b.addEventListener('click',function(){im.src=b.getAttribute('data-src');im.alt=b.querySelector('img').alt;cp.textContent=b.getAttribute('data-cap');lb.showModal()})});lb.querySelector('.x').addEventListener('click',function(){lb.close()});lb.addEventListener('click',function(e){if(e.target===lb)lb.close()})}})();</script></body></html>
